@@ -1,0 +1,35 @@
+{
+  "name": "@orbitalfoundation/streams",
+  "version": "0.1.0",
+  "description": "Room-based conversation over an orbital filespace: a durable per-area message log, gated by filespace policy, exposed as a single listener on the orbital bus.",
+  "type": "module",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --preserve-symlinks --test"
+  },
+  "keywords": [
+    "orbital",
+    "streams",
+    "messages",
+    "chat",
+    "presence",
+    "collaboration"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitalfoundation/orbital-streams.git"
+  },
+  "dependencies": {
+    "@orbitalfoundation/bus": "file:../reference/orbital-bus/packages/bus",
+    "@orbitalfoundation/filespace": "file:../orbital-filespace",
+    "@orbitalfoundation/utils": "file:../reference/orbital-bus/packages/utils"
+  }
+}
