@@ -28,8 +28,8 @@
     "url": "git+https://github.com/orbitalfoundation/orbital-streams.git"
   },
   "dependencies": {
-    "@orbitalfoundation/bus": "file:../reference/orbital-bus/packages/bus",
+    "@orbitalfoundation/bus": "file:../orbital-bus/packages/bus",
     "@orbitalfoundation/filespace": "file:../orbital-filespace",
-    "@orbitalfoundation/utils": "file:../reference/orbital-bus/packages/utils"
+    "@orbitalfoundation/utils": "file:../orbital-bus/packages/utils"
   }
 }
